@@ -1,6 +1,9 @@
 .navbar{
     background-color: transparent!important;
 }
+fixed{
+    background-color: red;
+}
 .navbar, .navbar-brand{
     font-size: 1.7rem;
 }
@@ -14,18 +17,18 @@
     font-size: 1.2rem;
     margin: 15px;
     font-weight: 500;
-    color: #ffffff;
+    color: #e1b382;
 }
 .nav-link{
-    color: white;
+    color: #e1b382;
     transition: .3s ease;
 }
 .nav-link:hover{
-    color:#ddd;
+    color:#e1b382;
 }
 
 .home{
-    background: url("../images/coding-1853305_1920.jpg") no-repeat;
+    background: url("../images/work-1627703_1920.jpg") no-repeat;
     background-size: cover;
     height: 40rem;
 }
@@ -39,7 +42,7 @@
 .titles > p{
     font-size: 1.5rem;
     text-align: center;
-    color: white;
+    color: #c89666;
     margin-bottom: 0;
 }
 .titles > h3{
@@ -53,7 +56,7 @@
 }
 .button > a{
     background-color: white;
-    color: black;
+    opacity: .3;
     padding: 1.5rem 4rem;
     border-radius: 10px;
     font-size: 1.3rem;

@@ -1,8 +1,8 @@
 .navbar{
     background-color: transparent!important;
 }
-fixed{
-    background-color: red;
+.fixed{
+    background-color: #00000070!important;
 }
 .navbar, .navbar-brand{
     font-size: 1.7rem;

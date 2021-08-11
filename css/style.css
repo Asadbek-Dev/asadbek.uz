@@ -63,3 +63,30 @@
     font-weight: 500;
     text-decoration: none;
 }
+/* SERVICES section */
+.services{
+    padding: 5rem 0 5rem;
+}
+.services > .container > h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.services > .container > .row > .col-md-4 > .card{
+    border: none;
+    border-radius: 0;
+}
+.services > .container > .row > .col-md-4 > .card > .card-header{
+    text-align: center;
+    border-bottom: none;
+    background-color: transparent;
+}
+.card > .card-header > i{
+    font-size: 3rem;
+    background-color: yellow;
+    padding: 1.5rem;
+    border-radius: 50px;
+}
+.card > .card-body{
+    text-align: center;
+}

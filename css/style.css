@@ -90,3 +90,25 @@
 .card > .card-body{
     text-align: center;
 }
+/* PORTFOLIO section */
+.portfolio{
+    padding: 5rem 0 5rem;
+}
+.col-md-4 > .card > .card-header > img{
+    width: 100%;
+}
+.card{
+    border: none;
+    border-radius: 0;
+}
+.card > .card-header{
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+.card-header > .overly{
+    position: absolute;
+    width: 296px;
+    height: 197px;    
+    background-color: #e1b3829e;
+}

@@ -161,7 +161,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* margin: 30% auto; */
 }
 
 .titles>p {
@@ -363,4 +362,42 @@ ul > li > .secondSpan{
 }
 ::-webkit-scrollbar-track{
     background-color: #000000;
+}
+
+/* RESPONSIVE */
+@media (min-width:315px) and (max-width:330px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    .loader{
+        width: 100vw;
+        height: 100vh;
+    }
+    .navbar{
+        width: 100vw;
+        padding: 10px 0;
+    }
+    .navbar-brand{
+        padding: 0 0 0 20px;
+        font-size: 1.3rem;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .change{
+        background-color: #000000!important;
+    }
+    .navbar-nav{
+        margin: 0 5rem;
+    }
+    .button{
+        width: 40%;
+        position: absolute;
+        left: -15%;
+    }
+    .button > a{
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        font-size: .7rem;    
+    }
 }

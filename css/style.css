@@ -1,3 +1,10 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');/** bold **/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');/** medium **/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');/** regular **/
+/* html{
+    scroll-behavior: smooth;
+} */
 .navbar {
     background-color: transparent !important;
     transition: .3s linear;
@@ -26,6 +33,8 @@
     margin: 15px;
     font-weight: 500;
     color: #e1b382;
+    font-family: 'Roboto',sans-serif;
+
 }
 
 .nav-link {
@@ -56,12 +65,15 @@
     text-align: center;
     color: #c89666;
     margin-bottom: 0;
+    font-family: 'Lato',sans-serif;
 }
 
 .titles>h3 {
     font-size: 3.4rem;
     text-align: center;
     color: white;
+    font-family: 'Open Sans',sans-serif;
+    letter-spacing: .5px;
 }
 
 .button {
@@ -77,6 +89,7 @@
     font-size: 1.3rem;
     font-weight: 500;
     text-decoration: none;
+    font-family: 'Roboto',sans-serif;
 }
 
 /* SERVICES section */
@@ -87,6 +100,8 @@
 .services>.container>h3 {
     font-size: 2.5rem;
     text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+
 }
 
 .services>.container>.row>.col-md-4>.card {
@@ -119,6 +134,8 @@
 .portfolio > .container > h3 {
     font-size: 2.5rem;
     text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+
 }
 
 .col-md-4>.card>.card-header>img {
@@ -144,6 +161,8 @@
     background-color: #e1b3829e;
     opacity: 0;
     transition: .4s ease-in-out;
+    font-family: 'Roboto',sans-serif;
+
 }
 
 .overly:hover {
@@ -164,10 +183,14 @@
 .about > .container > h3 {
     font-size: 2.5rem;
     text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+
 }
 
 .info > h4{
     font-size: 2.5rem;
+    font-family: 'Open Sans',sans-serif;
+
 }
 .info > p{
     letter-spacing: .5px;
@@ -192,4 +215,48 @@ ul > li > .firstSpan{
 ul > li > .secondSpan{
     color: #e1b382;
     white-space: nowrap;
+}
+/* FOOTER section */
+
+.footer{
+    background-color: #000000;
+    padding: 2rem;
+}
+.copyright > p{
+    color: #c89666;
+    font-family: 'Lato',sans-serif;
+
+}
+.smallInfo{
+    color:#c89666;
+}
+.social-networks > a{
+    text-decoration: none;
+    margin: 5px;
+}
+.social-networks > a > i{
+    width: 40px;
+    height: 40px;
+    background-color: #e1b382;
+    color: #000000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    transition: .3s ease;
+}
+.social-networks > a > i:hover{
+    background-color: #000000;
+    color: #c89666;
+}
+/* Scroll-bar */
+::-webkit-scrollbar{
+    width: 3px!important;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #c89666;
+    /* border-radius: 50px!important; */
+}
+::-webkit-scrollbar-track{
+    background-color: #000000;
 }

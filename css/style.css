@@ -1,60 +1,73 @@
-.navbar{
-    background-color: transparent!important;
+.navbar {
+    background-color: transparent !important;
 }
-.fixed{
-    background-color: #00000070!important;
+
+.fixed {
+    background-color: #00000070 !important;
 }
-.navbar, .navbar-brand{
+
+.navbar,
+.navbar-brand {
     font-size: 1.7rem;
 }
-.navbar-brand{
+
+.navbar-brand {
     padding-left: 5rem;
 }
-.navbar-nav{
+
+.navbar-nav {
     margin: 0 30rem auto;
 }
-.navbar-nav > li{
+
+.navbar-nav>li {
     font-size: 1.2rem;
     margin: 15px;
     font-weight: 500;
     color: #e1b382;
 }
-.nav-link{
+
+.nav-link {
     color: #e1b382;
     transition: .3s ease;
 }
-.nav-link:hover{
-    color:#e1b382;
+
+.nav-link:hover {
+    color: #e1b382;
 }
 
-.home{
+.home {
     background: url("../images/work-1627703_1920.jpg") no-repeat;
     background-size: cover;
     height: 40rem;
 }
-.col-md-6{
+
+.col-md-6 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     /* margin: 30% auto; */
 }
-.titles > p{
+
+.titles>p {
     font-size: 1.5rem;
     text-align: center;
     color: #c89666;
     margin-bottom: 0;
 }
-.titles > h3{
+
+.titles>h3 {
     font-size: 3.4rem;
     text-align: center;
     color: white;
 }
-.button{
+
+.button {
     width: 100%;
     margin: 3rem 10rem auto;
 }
-.button > a{
+
+.button>a {
     background-color: white;
     opacity: .3;
     padding: 1.5rem 4rem;
@@ -63,52 +76,81 @@
     font-weight: 500;
     text-decoration: none;
 }
+
 /* SERVICES section */
-.services{
+.services {
     padding: 5rem 0 5rem;
 }
-.services > .container > h3{
+
+.services>.container>h3 {
     font-size: 2.5rem;
     text-transform: uppercase;
 }
 
-.services > .container > .row > .col-md-4 > .card{
+.services>.container>.row>.col-md-4>.card {
     border: none;
     border-radius: 0;
 }
-.services > .container > .row > .col-md-4 > .card > .card-header{
+
+.services>.container>.row>.col-md-4>.card>.card-header {
     text-align: center;
     border-bottom: none;
     background-color: transparent;
 }
-.card > .card-header > i{
+
+.card>.card-header>i {
     font-size: 3rem;
     background-color: yellow;
     padding: 1.5rem;
     border-radius: 50px;
 }
-.card > .card-body{
+
+.card>.card-body {
     text-align: center;
 }
+
 /* PORTFOLIO section */
-.portfolio{
-    padding: 5rem 0 5rem;
+.portfolio {
+    padding: 0 0 5rem;
 }
-.col-md-4 > .card > .card-header > img{
+
+.portfolio > .container > h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.col-md-4>.card>.card-header>img {
     width: 100%;
 }
-.card{
+
+.card {
     border: none;
     border-radius: 0;
 }
-.card > .card-header{
+
+.card>.card-header {
     padding: 0;
     background-color: transparent;
     border-radius: 0;
 }
-.card-header > .overly{
+
+.card-header>.overly {
     position: absolute;
-    width: 296px;
-    height: 197px;    
+    width: 100%;
+    height: 100%;
+    text-align: center;
     background-color: #e1b3829e;
+    opacity: 0;
+    transition: .4s ease-in-out;
+}
+
+.overly:hover {
+    opacity: 1;
+}
+
+.overly-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

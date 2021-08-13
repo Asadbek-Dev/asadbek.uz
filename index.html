@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="./bootstrap-5.1.0-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./aos-master/dist/aos.css">
     <title>Asadbek.uz</title>
 </head>
 <body>
@@ -51,7 +52,7 @@
         <h3 class="text-center">Services</h3>
         <p class="text-center"><i>Lorem ipsum dolor sitstrum dignissimo</i></p>
         <div class="row mt-5">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="900">
             <div class="card">
               <div class="card-header">
                 <i class="fas fa-shopping-cart"></i>
@@ -62,7 +63,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="zoom-in" data-aos-duration="900">
             <div class="card">
               <div class="card-header">
                 <i class="fas fa-laptop"></i>
@@ -73,7 +74,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="900">
             <div class="card">
               <div class="card-header">
                 <i class="fas fa-lock"></i>
@@ -92,7 +93,7 @@
         <h3 class="text-center">Portfolio</h3>
         <p class="text-center"><i>Lorem ipsum dolor sitstrum dignissimo</i></p>  
         <div class="row mt-5">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-left" data-aos-duration="900">
             <div class="card">
               <div class="card-header">
                 <div class="overly">
@@ -105,7 +106,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="zoom-in" data-aos-duration="900">
             <div class="card">
               <div class="card-header">
                 <div class="overly">
@@ -118,7 +119,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-right" data-aos-duration="900">
             <div class="card">
               <div class="card-header">
                 <div class="overly">
@@ -133,7 +134,7 @@
           </div>
         </div>
         <div class="row mt-4">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-left" data-aos-duration="900">
             <div class="card">
               <div class="card-header">
                 <div class="overly">
@@ -146,7 +147,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="zoom-in" data-aos-duration="900">
             <div class="card">
               <div class="card-header">
                 <div class="overly">
@@ -159,7 +160,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="flip-right" data-aos-duration="900">
             <div class="card">
               <div class="card-header">
                 <div class="overly">
@@ -253,6 +254,12 @@
 
     <script src="./bootstrap-5.1.0-dist/js/jquery-3.6.0.min.js"></script>
     <script src="./bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
+    <script src="./aos-master/dist/aos.js"></script>
     <script src="./js/main.js"></script>
+    <script>
+      AOS.init({
+        easing:'ease-in-out-sine'
+      });
+    </script>
 </body>
 </html>

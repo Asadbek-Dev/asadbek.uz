@@ -1,9 +1,11 @@
 .navbar {
     background-color: transparent !important;
+    transition: .3s linear;
 }
 
 .fixed {
     background-color: #00000070 !important;
+    padding: 0;
 }
 
 .navbar,
@@ -153,4 +155,41 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+/* ABOUT section */
+.about {
+    padding: 5rem 0 5rem;
+}
+
+.about > .container > h3 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.info > h4{
+    font-size: 2.5rem;
+}
+.info > p{
+    letter-spacing: .5px;
+    margin: 2rem 0 2rem;
+}
+.info > ul > li{
+    list-style-type: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    margin-left: 10%;
+}
+.info > ul{
+    padding: 0;
+}
+ul > li > .firstSpan{
+    font-weight: bold;
+    white-space: nowrap;
+}
+ul > li > .secondSpan{
+    color: #e1b382;
+    white-space: nowrap;
 }

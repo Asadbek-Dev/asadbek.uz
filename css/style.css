@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');/** bold **/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');/** medium **/
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');/** regular **/
-/* html{
+html{
     scroll-behavior: smooth;
-} */
+}
 /** LOADER**/
 .loader{
     position: fixed;
@@ -859,7 +859,7 @@ ul > li > .secondSpan{
     .button{
         width: 40%;
         position: absolute;
-        left: -15%;
+        left: -19%;
         margin-top: 2rem;   
     }
     .button > a{

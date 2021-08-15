@@ -163,12 +163,20 @@
     transform: translate(-50%, -50%);
 }
 
-.titles>p {
+.titles > p {
     font-size: 1.5rem;
     text-align: center;
     color: #c89666;
     margin-bottom: 0;
     font-family: 'Lato',sans-serif;
+}
+.titles > .cd-intro >p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+    font-family: 'Lato',sans-serif;
+
 }
 
 .titles>h3 {
@@ -180,20 +188,19 @@
 }
 
 .button {
-    width: 100%;
+    width: 60px;
+    height: 60px;
     margin: 3rem 10rem auto;
 }
 
 .button>a {
-    background-color: #c89666;
-    opacity: 1;
-    color: white;
-    padding: 1.5rem 4rem;
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 100;
     text-decoration: none;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Lato',sans-serif;
 }
 
 /* SERVICES section */
@@ -372,7 +379,7 @@ ul > li > .secondSpan{
   }
   
   .cd-intro {
-    margin: 4em auto;
+    margin: 2em auto;
   }
   
   .cd-words-wrapper {
@@ -419,6 +426,25 @@ ul > li > .secondSpan{
   .cd-headline.clip b.is-visible {
     opacity: 1;
   }
+  ul li {
+    list-style: none;
+    position: relative;
+}
+.fa.icone {
+    font-size: 30px;
+    color:#fff;
+    opacity: 0;
+    animation: anima 1s ease infinite;
+    position: absolute;
+    left: -1.5rem;
+    top: -0.5rem;
+}
+@keyframes anima {
+    to {
+        opacity: 1;
+        top: 0.1rem;
+    }
+}
   
   
 
@@ -450,7 +476,7 @@ ul > li > .secondSpan{
     }
   }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     html,body{
         overflow-x: hidden;
     }
@@ -481,7 +507,7 @@ ul > li > .secondSpan{
     .button{
         width: 40%;
         position: absolute;
-        left: 6%;
+        left: 9%;
         margin-top: 2rem;   
     }
     .button > a{
@@ -516,6 +542,10 @@ ul > li > .secondSpan{
     }
     .info > ul > li {
         font-size: 1rem;
+    }
+    .cd-headline {
+        font-size: 3.5rem;
+        line-height: 1.2;
     }
 }
 @media screen and (max-width:501px) {
@@ -549,7 +579,7 @@ ul > li > .secondSpan{
     .button{
         width: 40%;
         position: absolute;
-        left: 6%;
+        left: -3%;
         margin-top: 2rem;   
     }
     .button > a{
@@ -584,6 +614,10 @@ ul > li > .secondSpan{
     }
     .info > ul > li {
         font-size: 1rem;
+    }
+    .cd-headline {
+        font-size: 2.5rem;
+        line-height: 1.2;
     }
 }
 @media screen and (max-width:460px) {
@@ -617,7 +651,7 @@ ul > li > .secondSpan{
     .button{
         width: 40%;
         position: absolute;
-        left: 4%;
+        left: -4%;
         margin-top: 2rem;   
     }
     .button > a{
@@ -653,6 +687,10 @@ ul > li > .secondSpan{
     .info > ul > li {
         font-size: 1rem;
     }
+    .cd-headline {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
 }
 @media screen and (max-width:400px) {
     html,body{
@@ -685,7 +723,7 @@ ul > li > .secondSpan{
     .button{
         width: 40%;
         position: absolute;
-        left: -5%;
+        left: -12%;
         margin-top: 2rem;   
     }
     .button > a{
@@ -753,7 +791,7 @@ ul > li > .secondSpan{
     .button{
         width: 40%;
         position: absolute;
-        left: -6%;
+        left: -14%;
         margin-top: 2rem;   
     }
     .button > a{

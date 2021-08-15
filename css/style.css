@@ -364,8 +364,432 @@ ul > li > .secondSpan{
 ::-webkit-scrollbar-track{
     background-color: #000000;
 }
+.cd-intro {
+    width: 90%;
+    max-width: 768px;
+    text-align: center;
+    color: white;
+  }
+  
+  .cd-intro {
+    margin: 4em auto;
+  }
+  
+  .cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+  }
+  .cd-words-wrapper b {
+    display: inline-block;
+    position: absolute;
+    white-space: nowrap;
+    left: 0;
+    top: 0;
+  }
+  .cd-words-wrapper b.is-visible {
+    position: relative;
+  }
+  .no-js .cd-words-wrapper b {
+    opacity: 0;
+  }
+  .no-js .cd-words-wrapper b.is-visible {
+    opacity: 1;
+  }
+  .cd-headline.clip span {
+    display: inline-block;
+    padding: .2em 0;
+  }
+  .cd-headline.clip .cd-words-wrapper {
+    overflow: hidden;
+    vertical-align: top;
+  }
+  .cd-headline.clip .cd-words-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-color: white;
+  }
+  .cd-headline.clip b {
+    opacity: 0;
+  }
+  .cd-headline.clip b.is-visible {
+    opacity: 1;
+  }
+  
+  
 
 /* RESPONSIVE */
+@media only screen and (min-width: 768px) {
+    .cd-intro {
+      margin: 5em auto;
+    }
+  }
+  @media only screen and (min-width: 1170px) {
+    .cd-intro {
+      margin: 6em auto;
+    }
+  }
+  
+  .cd-headline {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  @media only screen and (min-width: 768px) {
+    .cd-headline {
+      font-size: 4.4rem;
+      font-weight: 300;
+    }
+  }
+  @media only screen and (min-width: 1170px) {
+    .cd-headline {
+      font-size: 6rem;
+    }
+  }
+
+@media screen and (max-width:768px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    .loader{
+        width: 100vw;
+        height: 100vh;
+    }
+    .navbar{
+        width: 100vw;
+        padding: 10px 0;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-brand{
+        padding: 0 0 0 20px;
+        font-size: 1.3rem;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .change{
+        background-color: #000000!important;
+    }
+    .navbar-nav{
+        margin: 0 5rem;
+    }
+    .button{
+        width: 40%;
+        position: absolute;
+        left: 6%;
+        margin-top: 2rem;   
+    }
+    .button > a{
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        font-size: .7rem; 
+    }
+    .titles>h3{
+        font-size: 2.5rem;
+    }
+    .services {
+        padding: 3rem 0 3rem;
+    }
+    .portfolio{
+        padding-bottom: 0;
+    }
+    .portfolio > .container>.row>.col-md-4{
+        margin-bottom:5px;
+    }
+    .portfolio > .container>.mt-4 {
+        margin-top: 0rem !important;
+    }
+    .about{
+        padding: 2rem 0 2rem;
+    }
+    .info {
+        margin-left: 0;
+    }
+    .info > h4 {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .info > ul > li {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:501px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    .loader{
+        width: 100vw;
+        height: 100vh;
+    }
+    .navbar{
+        width: 100vw;
+        padding: 10px 0;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-brand{
+        padding: 0 0 0 20px;
+        font-size: 1.3rem;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .change{
+        background-color: #000000!important;
+    }
+    .navbar-nav{
+        margin: 0 5rem;
+    }
+    .button{
+        width: 40%;
+        position: absolute;
+        left: 6%;
+        margin-top: 2rem;   
+    }
+    .button > a{
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        font-size: .7rem; 
+    }
+    .titles>h3{
+        font-size: 2.5rem;
+    }
+    .services {
+        padding: 3rem 0 3rem;
+    }
+    .portfolio{
+        padding-bottom: 0;
+    }
+    .portfolio > .container>.row>.col-md-4{
+        margin-bottom:5px;
+    }
+    .portfolio > .container>.mt-4 {
+        margin-top: 0rem !important;
+    }
+    .about{
+        padding: 2rem 0 2rem;
+    }
+    .info {
+        margin-left: 0;
+    }
+    .info > h4 {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .info > ul > li {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:460px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    .loader{
+        width: 100vw;
+        height: 100vh;
+    }
+    .navbar{
+        width: 100vw;
+        padding: 10px 0;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-brand{
+        padding: 0 0 0 20px;
+        font-size: 1.3rem;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .change{
+        background-color: #000000!important;
+    }
+    .navbar-nav{
+        margin: 0 5rem;
+    }
+    .button{
+        width: 40%;
+        position: absolute;
+        left: 4%;
+        margin-top: 2rem;   
+    }
+    .button > a{
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        font-size: .7rem; 
+    }
+    .titles>h3{
+        font-size: 2.5rem;
+    }
+    .services {
+        padding: 3rem 0 3rem;
+    }
+    .portfolio{
+        padding-bottom: 0;
+    }
+    .portfolio > .container>.row>.col-md-4{
+        margin-bottom:5px;
+    }
+    .portfolio > .container>.mt-4 {
+        margin-top: 0rem !important;
+    }
+    .about{
+        padding: 2rem 0 2rem;
+    }
+    .info {
+        margin-left: 0;
+    }
+    .info > h4 {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .info > ul > li {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:400px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    .loader{
+        width: 100vw;
+        height: 100vh;
+    }
+    .navbar{
+        width: 100vw;
+        padding: 10px 0;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-brand{
+        padding: 0 0 0 20px;
+        font-size: 1.3rem;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .change{
+        background-color: #000000!important;
+    }
+    .navbar-nav{
+        margin: 0 5rem;
+    }
+    .button{
+        width: 40%;
+        position: absolute;
+        left: -5%;
+        margin-top: 2rem;   
+    }
+    .button > a{
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        font-size: .7rem; 
+    }
+    .titles>h3{
+        font-size: 2.5rem;
+    }
+    .services {
+        padding: 3rem 0 3rem;
+    }
+    .portfolio{
+        padding-bottom: 0;
+    }
+    .portfolio > .container>.row>.col-md-4{
+        margin-bottom:5px;
+    }
+    .portfolio > .container>.mt-4 {
+        margin-top: 0rem !important;
+    }
+    .about{
+        padding: 2rem 0 2rem;
+    }
+    .info {
+        margin-left: 0;
+    }
+    .info > h4 {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .info > ul > li {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:370px) {
+    html,body{
+        overflow-x: hidden;
+    }
+    .loader{
+        width: 100vw;
+        height: 100vh;
+    }
+    .navbar{
+        width: 100vw;
+        padding: 10px 0;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-brand{
+        padding: 0 0 0 20px;
+        font-size: 1.3rem;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+    .change{
+        background-color: #000000!important;
+    }
+    .navbar-nav{
+        margin: 0 5rem;
+    }
+    .button{
+        width: 40%;
+        position: absolute;
+        left: -6%;
+        margin-top: 2rem;   
+    }
+    .button > a{
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        font-size: .7rem; 
+    }
+    .titles>h3{
+        font-size: 2.5rem;
+    }
+    .services {
+        padding: 3rem 0 3rem;
+    }
+    .portfolio{
+        padding-bottom: 0;
+    }
+    .portfolio > .container>.row>.col-md-4{
+        margin-bottom:5px;
+    }
+    .portfolio > .container>.mt-4 {
+        margin-top: 0rem !important;
+    }
+    .about{
+        padding: 2rem 0 2rem;
+    }
+    .info {
+        margin-left: 0;
+    }
+    .info > h4 {
+        margin-top: 20px;
+        font-size: 1.5rem;
+    }
+    .info > ul > li {
+        font-size: 1rem;
+    }
+}
 @media (min-width:315px) and (max-width:330px) {
     html,body{
         overflow-x: hidden;
@@ -377,6 +801,9 @@ ul > li > .secondSpan{
     .navbar{
         width: 100vw;
         padding: 10px 0;
+    }
+    .navbar-nav{
+        text-align: center;
     }
     .navbar-brand{
         padding: 0 0 0 20px;

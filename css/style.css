@@ -121,15 +121,19 @@ html{
 
 .navbar,
 .navbar-brand {
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .navbar-brand {
     padding-left: 5rem;
+    font-weight: 500;
+}
+.navbar-brand > span{
+    color: #e1b382;
 }
 
 .navbar-nav {
-    margin: 0 30rem auto;
+    margin: 10px 30rem auto;
 }
 
 .navbar-nav>li {
